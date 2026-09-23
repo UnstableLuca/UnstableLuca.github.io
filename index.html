@@ -1,25 +1,1194 @@
-<section id="about">
-    <h2>About Me</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-    <h3>C++ & Unity Developer</h3>
+<head>
+    <meta charset="UTF-8">
 
-    <p>
-        I'm a Game Design and Development student currently finishing my degree
-        at <strong>Universidad Rey Juan Carlos (URJC)</strong>.
-    </p>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <p>
-        I'm interested in <strong>gameplay programming, systems development,
-        and real-time applications</strong>, with a particular focus on
-        <strong>C++ and Unity</strong>.
-    </p>
-</section>
+    <meta name="description"
+          content="Portfolio of Lucas Joglar, a Game & Software Developer focused on C++, Unity, .NET and real-time systems.">
 
-<section id="skills">
-    <h2>My Skills</h2>
+    <title>Lucas Joglar | Game & Software Developer</title>
 
-    <div class="skills">
-        <img src="https://skillicons.dev/icons?i=cpp,cs,unity,blender,cmake,git,github,c,python,java,js,lua,html,css,dotnet" 
-             alt="My skills">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="navbar-container">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Lucas Joglar<span>.</span>
+            </a>
+
+
+            <div class="nav-links">
+
+                <a href="#about"
+                   data-en="About"
+                   data-es="Sobre mí">
+                    About
+                </a>
+
+                <a href="#skills"
+                   data-en="Skills"
+                   data-es="Habilidades">
+                    Skills
+                </a>
+
+                <a href="#projects"
+                   data-en="Projects"
+                   data-es="Proyectos">
+                    Projects
+                </a>
+
+                <a href="#contact"
+                   data-en="Contact"
+                   data-es="Contacto">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="nav-controls">
+
+                <button id="language-toggle"
+                        class="control-button"
+                        aria-label="Change language">
+                    ES
+                </button>
+
+                <button id="theme-toggle"
+                        class="control-button theme-button"
+                        aria-label="Switch theme">
+                    ☾
+                </button>
+
+                <button id="mobile-menu-button"
+                        class="mobile-menu-button"
+                        aria-label="Open menu">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <div id="mobile-menu" class="mobile-menu">
+
+            <a href="#about"
+               data-en="About"
+               data-es="Sobre mí">
+                About
+            </a>
+
+            <a href="#skills"
+               data-en="Skills"
+               data-es="Habilidades">
+                Skills
+            </a>
+
+            <a href="#projects"
+               data-en="Projects"
+               data-es="Proyectos">
+                Projects
+            </a>
+
+            <a href="#contact"
+               data-en="Contact"
+               data-es="Contacto">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-glow"></div>
+
+
+            <div class="hero-content">
+
+                <div class="status-line">
+
+                    <span class="status-dot"></span>
+
+                    <span
+                        data-en="GAME & SOFTWARE DEVELOPER"
+                        data-es="DESARROLLADOR DE VIDEOJUEGOS Y SOFTWARE">
+                        GAME & SOFTWARE DEVELOPER
+                    </span>
+
+                </div>
+
+
+                <h1>
+
+                    Building
+                    <span>interactive</span>
+                    experiences.
+
+                </h1>
+
+
+                <p class="hero-subtitle"
+                   data-en="Game Design & Development student focused on C++, Unity and software development, with a particular interest in .NET, multithreading and real-time systems."
+                   data-es="Estudiante de Diseño y Desarrollo de Videojuegos centrado en C++, Unity y desarrollo de software, con especial interés en .NET, programación multihilo y sistemas en tiempo real.">
+
+                    Game Design & Development student focused on C++, Unity and software development, with a particular interest in .NET, multithreading and real-time systems.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a href="#projects"
+                       class="button button-primary"
+                       data-en="Explore my work"
+                       data-es="Ver mis proyectos">
+                        Explore my work
+                    </a>
+
+                    <a href="#contact"
+                       class="button button-outline"
+                       data-en="Get in touch"
+                       data-es="Contactar">
+                        Get in touch
+                    </a>
+
+                </div>
+
+
+                <div class="hero-tech">
+
+                    <span>C++</span>
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>Git</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span
+                    data-en="SCROLL TO EXPLORE"
+                    data-es="DESPLÁZATE PARA EXPLORAR">
+                    SCROLL TO EXPLORE
+                </span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section id="about" class="section">
+
+            <div class="section-header">
+
+                <div class="section-number">
+                    01
+                </div>
+
+                <div>
+
+                    <p class="section-label"
+                       data-en="PROFILE"
+                       data-es="PERFIL">
+                        PROFILE
+                    </p>
+
+                    <h2
+                        data-en="About Me"
+                        data-es="Sobre mí">
+                        About Me
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-layout">
+
+                <div class="about-main">
+
+                    <h3>
+
+                        <span
+                            data-en="Game development with a "
+                            data-es="Desarrollo de videojuegos con un ">
+                            Game development with a
+                        </span>
+
+                        <strong
+                            data-en="technical mindset."
+                            data-es="enfoque técnico.">
+                            technical mindset.
+                        </strong>
+
+                    </h3>
+
+
+                    <p
+                        data-en="I'm currently finishing my degree in Game Design and Development at Universidad Rey Juan Carlos (URJC). My background combines game development, programming, 3D content creation and software engineering."
+                        data-es="Actualmente estoy terminando el Grado en Diseño y Desarrollo de Videojuegos en la Universidad Rey Juan Carlos (URJC). Mi formación combina desarrollo de videojuegos, programación, creación de contenido 3D e ingeniería de software.">
+
+                        I'm currently finishing my degree in Game Design and Development at Universidad Rey Juan Carlos (URJC). My background combines game development, programming, 3D content creation and software engineering.
+
+                    </p>
+
+
+                    <p
+                        data-en="My main focus is programming. I particularly enjoy working with C++ and Unity, building gameplay systems and understanding how the systems behind an interactive experience work."
+                        data-es="Mi principal área de interés es la programación. Me interesa especialmente trabajar con C++ y Unity, desarrollar sistemas de gameplay y comprender cómo funcionan los sistemas que hacen posible una experiencia interactiva.">
+
+                        My main focus is programming. I particularly enjoy working with C++ and Unity, building gameplay systems and understanding how the systems behind an interactive experience work.
+
+                    </p>
+
+
+                    <p
+                        data-en="I'm also interested in the .NET ecosystem, multithreading, concurrent programming and real-time systems. These are areas I want to continue developing through personal projects and professional experience."
+                        data-es="También me interesan el ecosistema .NET, la programación multihilo, la programación concurrente y los sistemas en tiempo real. Son áreas que quiero seguir desarrollando mediante proyectos personales y experiencia profesional.">
+
+                        I'm also interested in the .NET ecosystem, multithreading, concurrent programming and real-time systems. These are areas I want to continue developing through personal projects and professional experience.
+
+                    </p>
+
+
+                    <div class="about-links">
+
+                        <a href="#projects"
+                           data-en="See my projects →"
+                           data-es="Ver mis proyectos →">
+                            See my projects →
+                        </a>
+
+                        <a href="#contact"
+                           data-en="Contact me →"
+                           data-es="Contactar →">
+                            Contact me →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="developer-card">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <span>
+                            developer.cpp
+                        </span>
+
+                    </div>
+
+
+                    <div class="terminal-content">
+
+<pre><code><span class="code-keyword">class</span> Developer
+{
+<span class="code-keyword">public</span>:
+
+    <span class="code-type">string</span> focus =
+        <span class="code-string">"Game Development"</span>;
+
+    <span class="code-type">vector</span>&lt;<span class="code-type">string</span>&gt;
+        interests = {
+
+        <span class="code-string">"C++"</span>,
+        <span class="code-string">"Unity"</span>,
+        <span class="code-string">".NET"</span>,
+        <span class="code-string">"Multithreading"</span>,
+        <span class="code-string">"Real-Time Systems"</span>
+    };
+};</code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SKILLS
+        ====================================================== -->
+
+        <section id="skills" class="section section-alt">
+
+            <div class="section-header">
+
+                <div class="section-number">
+                    02
+                </div>
+
+                <div>
+
+                    <p class="section-label"
+                       data-en="TECHNOLOGIES"
+                       data-es="TECNOLOGÍAS">
+                        TECHNOLOGIES
+                    </p>
+
+                    <h2
+                        data-en="Skills"
+                        data-es="Habilidades">
+                        Skills
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="skills-layout">
+
+
+                <!-- Programming -->
+
+                <div class="skill-category">
+
+                    <div class="skill-category-top">
+
+                        <span class="skill-icon">
+                            &lt;/&gt;
+                        </span>
+
+                        <span class="skill-index">
+                            01
+                        </span>
+
+                    </div>
+
+
+                    <h3
+                        data-en="Programming"
+                        data-es="Programación">
+                        Programming
+                    </h3>
+
+
+                    <p
+                        data-en="Languages I have worked with throughout my degree and projects."
+                        data-es="Lenguajes con los que he trabajado durante la carrera y en diferentes proyectos.">
+
+                        Languages I have worked with throughout my degree and projects.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span class="tag-main">C++</span>
+                        <span>C#</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>Lua</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Game Development -->
+
+                <div class="skill-category">
+
+                    <div class="skill-category-top">
+
+                        <span class="skill-icon">
+                            ◈
+                        </span>
+
+                        <span class="skill-index">
+                            02
+                        </span>
+
+                    </div>
+
+
+                    <h3
+                        data-en="Game Development"
+                        data-es="Desarrollo de videojuegos">
+                        Game Development
+                    </h3>
+
+
+                    <p
+                        data-en="Tools and technologies used to create interactive gameplay experiences."
+                        data-es="Herramientas y tecnologías utilizadas para crear experiencias de gameplay interactivas.">
+
+                        Tools and technologies used to create interactive gameplay experiences.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span class="tag-main">Unity</span>
+                        <span>Unreal Engine</span>
+                        <span>Blender</span>
+                        <span>3ds Max</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Software -->
+
+                <div class="skill-category">
+
+                    <div class="skill-category-top">
+
+                        <span class="skill-icon">
+                            .NET
+                        </span>
+
+                        <span class="skill-index">
+                            03
+                        </span>
+
+                    </div>
+
+
+                    <h3
+                        data-en="Software Development"
+                        data-es="Desarrollo de software">
+                        Software Development
+                    </h3>
+
+
+                    <p
+                        data-en="Areas of software engineering that I am particularly interested in developing further."
+                        data-es="Áreas de ingeniería de software que me interesa seguir desarrollando.">
+
+                        Areas of software engineering that I am particularly interested in developing further.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span class="tag-main">.NET</span>
+                        <span>Multithreading</span>
+                        <span>Concurrency</span>
+                        <span>Real-Time</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Tools -->
+
+                <div class="skill-category">
+
+                    <div class="skill-category-top">
+
+                        <span class="skill-icon">
+                            ⚙
+                        </span>
+
+                        <span class="skill-index">
+                            04
+                        </span>
+
+                    </div>
+
+
+                    <h3
+                        data-en="Tools & Workflow"
+                        data-es="Herramientas y flujo de trabajo">
+                        Tools & Workflow
+                    </h3>
+
+
+                    <p
+                        data-en="Tools I use for development, version control and project organisation."
+                        data-es="Herramientas que utilizo para desarrollo, control de versiones y organización de proyectos.">
+
+                        Tools I use for development, version control and project organisation.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span class="tag-main">Git</span>
+                        <span>GitHub</span>
+                        <span>CMake</span>
+                        <span>Visual Studio</span>
+                        <span>VS Code</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skills-footer">
+
+                <span
+                    data-en="CURRENTLY EXPLORING"
+                    data-es="EXPLORANDO ACTUALMENTE">
+                    CURRENTLY EXPLORING
+                </span>
+
+                <div class="exploring-list">
+
+                    <span>C++</span>
+                    <span>.NET</span>
+                    <span>Multithreading</span>
+                    <span>Concurrent Programming</span>
+                    <span>Real-Time Systems</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <div class="section-header">
+        <div class="section-number">03</div>
+        <div>
+            <p class="section-label"
+               data-en="SELECTED WORK"
+               data-es="PROYECTOS">
+                SELECTED WORK
+            </p>
+
+            <h2 data-en="Projects"
+                data-es="Proyectos">
+                Projects
+            </h2>
+        </div>
     </div>
+
+
+    <!-- =====================================================
+         FEATURED PROJECT — TFG
+    ====================================================== -->
+
+    <div class="project-category featured-category">
+
+        <div class="category-heading">
+            <span
+                data-en="FEATURED PROJECT"
+                data-es="PROYECTO DESTACADO">
+                FEATURED PROJECT
+            </span>
+
+            <div class="category-line"></div>
+        </div>
+
+
+        <article class="featured-project">
+
+            <div class="featured-project-image">
+
+                <div class="image-placeholder">
+
+                    <span
+                        data-en="CURRENTLY IN DEVELOPMENT"
+                        data-es="ACTUALMENTE EN DESARROLLO">
+                        CURRENTLY IN DEVELOPMENT
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="featured-project-content">
+
+                <div class="project-meta">
+
+                    <span
+                        data-en="TFG / ENGINE DEVELOPMENT"
+                        data-es="TFG / DESARROLLO DE MOTOR">
+                        TFG / ENGINE DEVELOPMENT
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Custom Vulkan Engine
+                </h3>
+
+
+                <p class="featured-project-intro"
+                   data-en="A game currently in early development, built on a custom C++ engine using Vulkan. The project focuses on exploring multithreading and understanding how different engine systems can be designed to work concurrently."
+                   data-es="Un videojuego actualmente en una fase temprana de desarrollo, construido sobre un motor propio en C++ utilizando Vulkan. El proyecto se centra en explorar la programación multihilo y comprender cómo diseñar diferentes sistemas del motor para trabajar de forma concurrente.">
+                    A game currently in early development, built on a custom C++ engine using Vulkan. The project focuses on exploring multithreading and understanding how different engine systems can be designed to work concurrently.
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span>C++</span>
+                    <span>Vulkan</span>
+                    <span>Custom Engine</span>
+                    <span>Multithreading</span>
+                    <span>Game Development</span>
+
+                </div>
+
+
+                <div class="project-status">
+
+                    <span class="status-dot"></span>
+
+                    <span
+                        data-en="IN DEVELOPMENT"
+                        data-es="EN DESARROLLO">
+                        IN DEVELOPMENT
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PERSONAL PROJECTS
+    ====================================================== -->
+
+    <div class="project-category">
+
+        <div class="category-heading">
+
+            <span
+                data-en="PERSONAL PROJECTS"
+                data-es="PROYECTOS PERSONALES">
+                PERSONAL PROJECTS
+            </span>
+
+            <div class="category-line"></div>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- SANDBOX -->
+            <article class="project-card">
+
+                <div class="project-card-image">
+
+                    <img src="images/sandgame.png"
+                         alt="Sand Game">
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <div class="project-meta">
+
+                        <span
+                            data-en="PERSONAL PROJECT"
+                            data-es="PROYECTO PERSONAL">
+                            PERSONAL PROJECT
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Sand Game
+                    </h3>
+
+
+                    <p
+                        data-en="A small sandbox simulation developed in 48 hours as a personal challenge to improve my C++ development workflow and learn Raylib. The project focuses on real-time simulation, input handling and managing a growing codebase under a short development deadline."
+                        data-es="Una pequeña simulación tipo sandbox desarrollada en 48 horas como reto personal para mejorar mi forma de trabajar con C++ y aprender Raylib. El proyecto se centra en simulación en tiempo real, gestión de entrada y organización del código bajo un plazo de desarrollo reducido.">
+                        A small sandbox simulation developed in 48 hours as a personal challenge to improve my C++ development workflow and learn Raylib. The project focuses on real-time simulation, input handling and managing a growing codebase under a short development deadline.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>C++</span>
+                        <span>Raylib</span>
+                        <span>Simulation</span>
+                        <span>48-Hour Project</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CATNOIR -->
+            <article class="project-card">
+
+                <div class="project-card-image">
+
+                    <img src="images/catnoir.png"
+                         alt="CATNOIR Game">
+
+
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <div class="project-meta">
+
+                        <span
+                            data-en="GAME JAM"
+                            data-es="GAME JAM">
+                            GAME JAM
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        CATNOIR
+                    </h3>
+
+
+                    <p
+                        data-en="A noir-inspired detective game developed during a Game Jam. Players take the role of a detective cat, investigating clues, solving puzzles and uncovering the mystery behind the story."
+                        data-es="Un juego de detectives inspirado en el género noir desarrollado durante una Game Jam. El jugador asume el papel de un gato detective que investiga pistas, resuelve puzles y descubre el misterio de la historia.">
+                        A noir-inspired detective game developed during a Game Jam. Players take the role of a detective cat, investigating clues, solving puzzles and uncovering the mystery behind the story.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Game Jam</span>
+                        <span>Unity</span>
+                        <span>Puzzle</span>
+                        <span>Game Development</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a href="https://squeakyboy.itch.io/catnoir"
+                           class="project-button"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <span
+                                data-en="Play on Itch.io →"
+                                data-es="Jugar en Itch.io →">
+                                Play on Itch.io →
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         UNIVERSITY PROJECTS
+    ====================================================== -->
+
+    <div class="project-category university-category">
+
+        <div class="category-heading">
+
+            <span
+                data-en="UNIVERSITY PROJECTS"
+                data-es="PROYECTOS UNIVERSITARIOS">
+                UNIVERSITY PROJECTS
+            </span>
+
+            <div class="category-line"></div>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- 3D ENGINE -->
+            <article class="project-card">
+
+                <div class="project-card-image">
+
+                    <img src="images/PGF.png"
+                         alt="3D graphics engine">
+
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <div class="project-meta">
+
+                        <span
+                            data-en="GRAPHICS / ENGINE DEVELOPMENT"
+                            data-es="GRÁFICOS / DESARROLLO DE MOTORES">
+                            GRAPHICS / ENGINE DEVELOPMENT
+                        </span>
+
+
+                    </div>
+
+
+                    <h3>
+                        3D Graphics Engine
+                    </h3>
+
+
+                    <p
+                        data-en="A university project focused on developing a 3D engine using OpenGL. The project involved implementing core graphics functionality and custom OBB-based collision detection for interactions between 3D objects."
+                        data-es="Proyecto universitario centrado en el desarrollo de un motor 3D utilizando OpenGL. El proyecto incluye la implementación de funcionalidades gráficas y un sistema propio de detección de colisiones basado en OBB para las interacciones entre objetos 3D.">
+                        A university project focused on developing a 3D engine using OpenGL. The project involved implementing core graphics functionality and custom OBB-based collision detection for interactions between 3D objects.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>C++</span>
+                        <span>OpenGL</span>
+                        <span>3D Engine</span>
+                        <span>OBB</span>
+                        <span>Collision Detection</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- MULTIPLAYER -->
+            <article class="project-card">
+
+                <div class="project-card-image">
+
+                    <img src="images/EMMultijugador.png"
+                         alt="Multiplayer game project">
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <div class="project-meta">
+
+                        <span
+                            data-en="NETWORKING / MULTIPLAYER"
+                            data-es="REDES / MULTIJUGADOR">
+                            NETWORKING / MULTIPLAYER
+                        </span>
+
+
+                    </div>
+
+
+                    <h3>
+                        Multiplayer Game
+                    </h3>
+
+
+                    <p
+                        data-en="A university project focused on adding multiplayer functionality to an existing game using Unity's multiplayer systems. The project involved implementing networked gameplay and adapting existing game functionality for multiplayer interaction."
+                        data-es="Proyecto universitario centrado en añadir funcionalidad multijugador a un juego existente utilizando los sistemas multijugador de Unity. El proyecto implicó implementar gameplay en red y adaptar funcionalidades existentes para permitir la interacción multijugador.">
+                        A university project focused on adding multiplayer functionality to an existing game using Unity's multiplayer systems. The project involved implementing networked gameplay and adapting existing game functionality for multiplayer interaction.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>Multiplayer</span>
+                        <span>Networking</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
+
+
+
+<!-- CURRENT DIRECTION -->
+<section class="direction-section">
+
+    <div class="direction-content">
+
+        <p class="section-label"
+           data-en="CURRENT DIRECTION"
+           data-es="DIRECCIÓN ACTUAL">
+            CURRENT DIRECTION
+        </p>
+
+
+        <h2
+            data-en="Game programming meets systems development."
+            data-es="Programación de videojuegos y desarrollo de sistemas.">
+            Game programming meets systems development.
+        </h2>
+
+
+        <p
+            data-en="I'm interested in developing deeper programming and systems knowledge through game technology — from gameplay and engine development to graphics, multithreading and real-time software."
+            data-es="Me interesa desarrollar conocimientos más profundos de programación y sistemas a través de la tecnología aplicada a videojuegos, desde gameplay y desarrollo de motores hasta gráficos, programación multihilo y software en tiempo real.">
+            I'm interested in developing deeper programming and systems knowledge through game technology — from gameplay and engine development to graphics, multithreading and real-time software.
+        </p>
+
+    </div>
+
+</section><!-- CURRENT DIRECTION -->
+
+
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-header">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <div>
+
+                    <p class="section-label"
+                       data-en="CONTACT"
+                       data-es="CONTACTO">
+                        CONTACT
+                    </p>
+
+                    <h2
+                        data-en="Let's talk."
+                        data-es="Hablemos.">
+                        Let's talk.
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-layout">
+
+                <div class="contact-intro">
+
+                    <h3
+                        data-en="Have a project or opportunity?"
+                        data-es="¿Tienes un proyecto u oportunidad?">
+                        Have a project or opportunity?
+                    </h3>
+
+
+                    <p
+                        data-en="I'm open to discussing game development, software projects, internships and junior opportunities."
+                        data-es="Estoy abierto a hablar sobre proyectos de videojuegos, software, prácticas y oportunidades profesionales junior.">
+
+                        I'm open to discussing game development, software projects, internships and junior opportunities.
+
+                    </p>
+
+
+                    <a href="mailto:lucas.joglar@gmail.com"
+                       class="email-button">
+
+                        lucas.joglar@gmail.com
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="contact-list">
+
+                    <a href="https://github.com/UnstableLuca"
+                       class="contact-item"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div>
+
+                            <span class="contact-label-small">
+                                GITHUB
+                            </span>
+
+                            <span class="contact-value">
+                                UnstableLuca
+                            </span>
+
+                        </div>
+
+                        <span class="contact-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/lucas-joglar-liebana-b96b312a7/"
+                       class="contact-item"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div>
+
+                            <span class="contact-label-small">
+                                LINKEDIN
+                            </span>
+
+                            <span class="contact-value">
+                                Lucas Joglar
+                            </span>
+
+                        </div>
+
+                        <span class="contact-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-left">
+
+            <span class="footer-name">
+                Lucas Joglar<span>.</span>
+            </span>
+
+            <span>
+                © 2026
+            </span>
+
+        </div>
+
+
+        <div class="footer-right">
+
+            <span
+                data-en="Game & Software Developer"
+                data-es="Desarrollador de videojuegos y software">
+                Game & Software Developer
+            </span>
+
+            <a href="#home">
+                ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
